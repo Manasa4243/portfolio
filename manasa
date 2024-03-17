@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-white">Portfolio</a>
+            <button id="toggleMenu" class="text-white focus:outline-none lg:hidden">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+            <div id="menu" class="hidden lg:block">
+                <ul class="text-lg">
+                    <li class="inline-block"><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+                    <li class="inline-block ml-4"><a href="#about"
+                            class="text-white hover:text-gray-300">About</a></li>
+                    <li class="inline-block ml-4"><a href="#skills"
+                            class="text-white hover:text-gray-300">Skills</a></li>
+                    <li class="inline-block ml-4"><a href="#contact"
+                            class="text-white hover:text-gray-300">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-8">
+        <section id="about" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p class="text-lg">I am an MCA student and fresher with a passion for web development, Linux, GitHub, Docker, and computer networking. I enjoy learning new technologies and solving problems.</p>
+        </section>
+
+        <section id="skills" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <ul class="list-disc ml-6">
+                <li class="text-lg">Web Development</li>
+                <li class="text-lg">Linux</li>
+                <li class="text-lg">GitHub</li>
+                <li class="text-lg">Docker</li>
+                <li class="text-lg">Computer Networking</li>
+            </ul>
+        </section>
